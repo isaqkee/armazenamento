@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url(butler.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+button{
+    background-color: white;
+    color: midnightblue;
+    border: 2px solid midnightblue;
+    font:400 16px 'verdana', sans-serif;
+    padding: 4px 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+    border-radius: 7px;
+}
+
+button:hover{
+    background-color: #12124d;
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    background-color: white;
+    max-width: 450px;
+    margin: 48px auto 0;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container .titulo{
+    text-align: center;
+    padding: 0 16px 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+#form,
+#edit-form{
+    padding: 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+#form-controle{
+    display: flex;
+}
+
+.form-controle input{
+    margin: 10px 5px;
+
+}
+
+#barra{
+    padding: 16px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+}
